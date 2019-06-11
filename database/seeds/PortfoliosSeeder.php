@@ -34,9 +34,19 @@ class PortfoliosSeeder extends Seeder
                 'images' => 'portfolio_pic5.jpg',
             ],
             [
-                'name' => 'about us',
-                'filter' => 'aboutUs',
-                'images' => 'about-img.jpg',
+                'name' => 'iPhone',
+                'filter' => 'web',
+                'images' => 'portfolio_pic6.jpg',
+            ],
+            [
+                'name' => 'Nexus Phone',
+                'filter' => 'web',
+                'images' => 'portfolio_pic7.jpg',
+            ],
+            [
+                'name' => 'Android',
+                'filter' => 'android',
+                'images' => 'portfolio_pic8.jpg',
             ]
 
         ]);

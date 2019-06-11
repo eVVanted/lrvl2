@@ -14,17 +14,35 @@ class ServicesSeeder extends Seeder
     {
         DB::table('pages')->insert([
             [
-                'name' => 'home',
-                'position' => 'home',
-                'text' => '',
-                'images' => 'main_device_image.png',
+                'name' => 'Android',
+                'text' => 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text.',
+                'icon' => 'fa-android',
             ],
             [
-                'name' => 'about us',
-                'position' => 'aboutUs',
-                'text' => '',
-                'images' => 'about-img.jpg',
-            ]
+                'name' => 'Apple IOS',
+                'text' => 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text.',
+                'icon' => 'fa-apple',
+                ],
+                [
+                    'name' => 'Design',
+                    'text' => 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text.',
+                    'icon' => 'fa-dropbox',
+                ],
+                [
+                    'name' => 'Concept',
+                    'text' => 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text.',
+                    'icon' => 'fa-html5',
+                ],
+                [
+                    'name' => 'User Research',
+                    'text' => 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text.',
+                    'icon' => 'fa-slack',
+                ],
+                [
+                    'name' => 'User Experience',
+                    'text' => 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text.',
+                    'icon' => 'fa-users',
+                ]
 
         ]);
     }
