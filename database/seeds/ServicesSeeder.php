@@ -12,7 +12,7 @@ class ServicesSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('pages')->insert([
+        DB::table('services')->insert([
             [
                 'name' => 'Android',
                 'text' => 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text.',

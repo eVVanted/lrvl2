@@ -12,7 +12,7 @@ class PortfoliosSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('pages')->insert([
+        DB::table('portfolios')->insert([
             [
                 'name' => 'Finance App',
                 'filter' => 'GPS',
