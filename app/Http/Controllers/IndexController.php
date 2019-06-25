@@ -16,6 +16,6 @@ class IndexController extends Controller
         $portfolios = Portfolio::get(array('name', 'filter', 'images'));
         $services = Service::where('id', '<', 20)->get();
         $peoples = People::take(3)->get();
-        return view('layouts.site');
+        return view('site.index');
     }
 }
