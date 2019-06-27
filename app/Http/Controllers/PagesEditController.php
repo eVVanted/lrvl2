@@ -14,6 +14,11 @@ class PagesEditController extends Controller
     public function execute(Page $page, Request $request){
 //        $page =Page::find($id);
 
+        if($request->isMethod('delete')){
+            $page->delete();
+            return redirect('admin')->with('status', 'Страница удалена');
+        }
+
         if($request->isMethod('post')){
             $input = $request->except('_token');
 
